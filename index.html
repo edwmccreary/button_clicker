@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>Dojonary</h1>
+            <input type="search" name="" id="" placeholder="Search">
+            <button class="button_login" onclick="login(this)">Login</button>
+        </div>
+        <div class="flexed">
+            <div class="definitions">
+                <div class="definition">
+                    <div>
+                        <h1>ninja</h1>
+                        <h3><i>noun</i></h3>
+                        <p>Plural: <i>ninjas</i></p>
+                        <button class="button_like" onclick="like(this)"><p>13 likes</p></button>
+                    </div>
+                    <div class="definition_text">
+                        <h3>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a> </h3>
+                    </div>
+                </div>
+                <div class="definition">
+                    <div>
+                        <h1>ninja</h1>
+                        <h3><i>noun</i></h3>
+                        <p>Plural: <i>ninjas</i></p>
+                        <button class="button_like" onclick="like(this)"><p>37 likes</p></button>
+                    </div>
+                    <div class="definition_text">
+                        <h3>A <a href="">programmer</a> who breaks down problems with a <a href="">zen</a>-like focus</h3>
+                    </div>     
+                </div>
+            </div>
+            <div class="add_definition">
+                <h3>Dojonary is</h3>
+                <h3>defined by <b>YOU</b></h3>
+                <button class="button_add_definition" onclick="remove(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
